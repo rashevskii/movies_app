@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header-wrapper {
+  padding: 0 15px;
+}
+.main-wrapper {
+  min-height: calc(100vh - 210px);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.preloader {
+  width: 100%;
+  height: calc(100vh - 210px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-field__radio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
